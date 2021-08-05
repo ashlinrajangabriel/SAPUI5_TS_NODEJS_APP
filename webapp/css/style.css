@@ -1,0 +1,491 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+/* Enter your custom styles here */
+
+
+/*.sapMText {
+    display: inline-block;
+    box-sizing: border-box;
+    white-space: pre-line;
+    word-wrap: break-word;
+    cursor: text;
+    font-size: 0.875rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+    color: transparent !important;
+}*/
+
+
+/*.sapUiFormResGrid.sapUiFormBackgrTranslucent>div {
+    background-color: opaque !important;
+}*/
+
+
+/*.sapUiFormResGrid.sapUiFormBackgrTranslucent>div {
+    background-color: #cae4fbd1 !important;
+}
+
+.sapMWizard .sapMWizardStepContainer {
+    background: #cae4fb !important;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+sapMBtnDisabled {
+    opacity: 4.5 !important;
+}
+
+.sapMH6Style {
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-weight: normal!important;
+    color: #f7f7f7!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
+}
+
+span.sapMBtnInner.sapMBtnAccept {
+    background-image: none;
+    background-color: #f7f7f7;
+    border-color: #427cac;
+    color: #346187;
+}
+.sapMIBar-CTX .sapMBtn:hover>.sapMBtnHoverable.sapMBtnAccept:not(.sapMBtnActive) {
+    background-color: #f7f7f7;
+    border-color: #427cac;
+    color: #346187;
+}
+
+.sapUiGlobalBackgroundImage {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    background-image: "https://www.accenture.com//www.accenture.com/t20170407T170427Z__w__/hu-en/_acnmedia/Accenture/Conversion-Assets/DotCom/Images/Global/Consulting/Accenture-IPEX-Greather-Than-Marquee.jpg";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*.sapMFlexBoxJustifyStart {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center !important;
+      padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 350px;
+}*/
+
+.tileLayout {
+	float: left;
+}
+
+sapMBtnIcon {
+    font-size: 1.375rem;
+    line-height: 2.375rem;
+    width: 2.375rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    max-height: 2.375rem;
+    color: #010e19 !important;
+}
+
+.textclass {
+    color: #f7f7f7!important;
+}
+
+.sapMOH.sapMOHBgTransparent,
+.sapMOHC.sapMOHBgTransparent {
+    background: #88bdffbf;
+}
+
+.sapMBar {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 3rem;
+    line-height: 3rem;
+    color: #1c4b88;
+    background-color: #539ede !important;
+    text-shadow: 0 0 0.125rem #ffffff;
+    box-shadow: inset 0 -0.0625rem #d1e0ee;
+}
+
+.sapMLabel {
+    color: #666666;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;
+}
+
+.sapMBar2 {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 4rem;
+    line-height: 3rem;
+    color: #1c4b88;
+    background-color: #539ede52 !important;
+    text-shadow: 0 0 0.125rem #ffffff;
+    box-shadow: inset 0 -0.0625rem #d1e0ee;
+}
+
+.sapMBar3 {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 3rem;
+    line-height: 3rem;
+    color: #f7f7f7;
+    background-color: #f7f7f7 !important;
+    text-shadow: 0 0 0.125rem #ffffff;
+    box-shadow: inset 0 -0.0625rem #d1e0ee;
+}
+
+
+
+
+.sapMLabel2 {
+    color: #666666 !important;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;
+}
+.sapMLabelForm {
+    color: #eff4f9 !important;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;
+}
+
+.sapMIBar-CTX .sapMTitle {
+    color: #fafafa;
+    text-shadow: 0 0 0.125rem #ffffff !important;
+}
+
+.v-title viz-title-label {
+    font-size: 0px;
+}
+
+.sapUiFormResGrid.sapUiFormBackgrTranslucent2>div {
+    background-color: #cae4fbab;
+}
+
+.sapMFlexBoxBGTranslucent {
+    background-color: #cae4fba1;
+}
+
+.sapUiForm .sapUiFormTitle2 {
+    font-weight: normal;
+    color: #eff4f9  !important;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.sapMH1Style, .sapMH2Style, .sapMH3Style, .sapMH4Style, .sapMH5Style, .sapMH6Style3 {
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-weight: normal!important;
+    color: #f7f7f7!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
+}
+
+.sapMBtnIcon2 {
+    font-size: 1.375rem;
+    line-height: 2.375rem;
+    width: 2.375rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    max-height: 2.375rem;
+    color: #f7f7f7;
+}
+
+.sapMListTbl th {
+    background: #c5ddf1;
+    border-bottom: 1px solid #e5e5e5;
+}
+.sapMWizard .sapMWizardStepContainer {
+    background: #f7f7f7 !important;
+}
+.fioriAccLoginLabel{
+	font-family: "Oswald:700", sans-serif;
+	color : White;
+	font-size : 25px;
+}
+.pageTitle{
+	font-family: "Oswald:700", sans-serif;
+	font-size: 22px;
+}
+
+.inputhbox {
+    position:relative;
+    padding:0;
+    margin:0;
+}
+.subTitleLabel{
+	font-family: 'Lato Sans', sans-serif;
+	font-size: 22px;
+}
+.input {
+    margin:0;
+    padding-right: 30px;
+}
+.inputimg {
+    position:absolute;
+    bottom:12px;
+    right:40px;
+    padding-top: 15px;
+}
+.WhiteText{
+	color: White !important;
+}
+.blackBG{
+	background-color: Black !important;
+	height: 50px;
+}
+.donutPadding{
+	position: relative;
+	left: 30%;
+}
+.donut{
+	position: relative;
+	top:-90px;
+	padding: 0;
+	margin:0;
+}
+.v-m-legend{
+	-webkit-transform: translate(-310px, 350px);
+    -moz-transform: translate(-310px, 350px);
+	transform: translate(-310px, 350px);
+	width:700px;
+}
+.icon-customer{
+	color: White;
+}
+
+.logoutText{
+	font-size:15px;
+}
+.logoutform{
+	position: relative;
+	left: 15%;
+}
+.logoutpopover{
+	background-color: White !important;
+	border-top: 1.5px solid lightgray;
+	border-bottom: 1.5px solid lightgray;
+}
+.logoutpopovertext{
+	color: White !important;
+}
+.objectheaderlabel{
+	width:110px;
+	font-size:12px;
+}
+.objectheadertxt{
+	font-size:12px;
+}
+.panellabel{
+	width:150px;
+	font-size:12px;
+}
+.configpanel{
+	background-color:#F5F5F5;
+	padding:2%;
+}
+.configpanelhead .sapMPanelHdr{
+	font-size:13px;
+	font: bold;
+	font-family: "Oswald:700", sans-serif;
+}
+.configtablehead{
+	font-size:12px;
+	font-weight: bold;
+	font-family: "Oswald:700", sans-serif;
+}
+.rightdashborder{
+	border-right: dashed #B0C4DE;
+	border-right-width: thin;
+}
+.html.sap-desktop .sapContrast .sapMIBar.sapMFooter-CTX, html.sap-desktop .sapContrast.sapMIBar.sapMFooter-CTX {
+    background-color: #2f3c48;
+    border-top: 1.7px solid lightgray;
+}
+.sapMFooter-CTX{
+	border-top: 1.7px solid ;
+}
+.blackTxt{
+	color:Blue !important;
+	padding: 5%;
+}
+.navbackbtn{
+	font-size:1.6rem;
+}
+
+/******************************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px; }
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px; }
+
+.logo {
+  height: 35px; }
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  /*Remove shaking*/
+  margin-bottom: 60px; }
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  /*
+    animation-delay:3s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-out;
+    */ }
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
+  animation: moveInRight  1s  ease-out; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  80% {
+    transform: translate(20px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  80% {
+    transform: translate(-20px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); }
+  80% {
+    transform: translate(-20px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: relative; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  transform: translate(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.btn-white {
+  background-color: #fff;
+  color: #777; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: Absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.btn-white::after {
+  background-color: #fff; }
+
+.btn:hover::after {
+  transform: scale(1.4) scaleY(1.6);
+  opacity: 0; }
+
+.btn-animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards; }

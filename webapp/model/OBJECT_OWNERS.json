@@ -1,0 +1,79 @@
+[
+    {
+      "ObjectOwner": "AX000122",
+      "Objects": {
+        "items": [
+          {
+            "OBJECTID": "GUID00000ZX01",
+            "OBJECT CREATION DATE": "2020-06-09 00:05:06",
+            "OBJECT GROUPS": [
+              "Administrator",
+              "PU_DE_XXXX_01",
+              "BU_DE_XXXX_01",
+              "XXXX_01"
+            ]
+          },
+          {
+            "OBJECTID": "GUID00000ZX02",
+            "OBJECT CREATION DATE": "2020-06-09 00:05:06",
+            "OBJECT GROUPS": [
+              "Administrator",
+              "PU_DE_XXXX_01",
+              "XXXX_01"
+            ]
+          },
+          {
+            "OBJECTID": "GUID00000ZX03",
+            "OBJECT CREATION DATE": "2020-06-09 00:05:06",
+            "OBJECT GROUPS": [
+              "Administrator",
+              "PU_DE_XXXX_01",
+              "XXXX_01"
+            ]
+          },
+          {
+            "OBJECTID": "GUID00000ZX04",
+            "OBJECT CREATION DATE": "2020-06-09 00:05:06",
+            "OBJECT GROUPS": [
+              "Administrator",
+              "PU_DE_XXXX_01",
+              "XXXX_01"
+            ]
+          },
+          {
+            "OBJECTID": "GUID00000ZX05",
+            "OBJECT CREATION DATE": "2020-06-09 00:05:06",
+            "OBJECT GROUPS": [
+              "Administrator",
+              "PU_DE_XXXX_01",
+              "XXXX_01"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ObjectOwner": "AX000121",
+      "Objects": {
+        "items": [
+          {
+            "OBJECTID": "GUID00000ZX06",
+            "OBJECT CREATION DATE": "2020-06-09 00:05:06",
+            "OBJECT GROUPS": [
+              ""
+            ]
+          },
+          {
+            "OBJECTID": "GUID00000ZX07",
+            "OBJECT CREATION DATE": "2020-06-09 00:15:06",
+            "OBJECT GROUPS": [
+              "Administrator",
+              "PU_DE_XXXX_01",
+              "BU_DE_XXXX_01",
+              "XXXX_01"
+            ]
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,43 @@
+{
+    "Database": "DBXXX_DLOA",
+    "Schema_name": "SCHXXX_DLOA",
+    "Objects": {
+      "items": [
+        {
+          "Object_name": "TBL_LOGISTICS_ENDSER",
+          "Object_type": "TABLE",
+          "Object_guid": "GUID00000ZX01"
+        },
+        {
+          "Object_name": "TBL_LOGISTICS_GAURD_VISIT",
+          "Object_type": "TABLE",
+          "Object_guid": "GUID00000ZX02"
+        },
+        {
+          "Object_name": "TBL_LOGISTICS_SHIPPING",
+          "Object_type": "TABLE",
+          "Object_guid": "GUID00000ZX03"
+        },
+        {
+          "Object_name": "TBL_LOGISTICS_ROUTE_MASTER",
+          "Object_type": "TABLE",
+          "Object_guid": "GUID00000ZX04"
+        },
+        {
+          "Object_name": "TBL_LOGISTICS_VIEWS",
+          "Object_type": "TABLE",
+          "Object_guid": "GUID00000ZX05"
+        },
+        {
+          "Object_name": "ANSWER_USERS_FX",
+          "Object_type": "ANSWERS",
+          "Object_guid": "GUID00000ZX06"
+        },
+        {
+          "Object_name": "WST_LOGISTICS_SOLUTION",
+          "Object_type": "WORKSHEET",
+          "Object_guid": "GUID00000ZX07"
+        }
+      ]
+    }
+  }

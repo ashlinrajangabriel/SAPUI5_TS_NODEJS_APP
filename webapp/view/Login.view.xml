@@ -1,0 +1,43 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+xmlns:l="sap.ui.layout" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" 
+controllerName="loc.modloc.controller.login" displayBlock="true">
+
+	<App >
+	
+
+	<pages>
+			<Page showHeader="false" id="page1" >
+				
+				<content>
+							 <VBox fitContainer="true" justifyContent="Center" alignItems="Center" alignContent="Center" >
+    <items>
+    	<!--<Label text="Accenture >" design="Bold" class= "textclass"/>-->
+    	<Image src="images/logo.png" height="60px" width="230px" visible="true" tooltip="BGD" class="sapUiMediumMarginBottom"/>
+    	<Label text="Thoughtspot ControlPanel" design="Bold" class= "fioriAccLoginLabel" width="350px" textAlign="Center"/>
+
+
+     <VBox class="sapUiMediumMargin">
+     	<HBox class="inputhbox sapUiMediumMarginBegin sapUiTinyMarginBottom" id="inputhbox1">
+     		<Input id="UserID" class="input" width="300px" placeholder="User Name"></Input>
+     		<Image class="inputimg" src="images/user_icon.png" height="22px" width="22px" visible="true" tap="onasd"/>
+     	</HBox>
+     	<HBox  class="inputhbox sapUiMediumMarginBegin sapUiTinyMarginTop"  id="inputhbox2">
+	    	<Input id="Secret" class="input" width="300px" placeholder="*********" type="Password"></Input>
+	    	<Image class="inputimg" src="images/lock_icon.png" height="22px" width="22px" visible="true" tap="onasd"/>
+    	</HBox>
+     </VBox>
+     <!--<Label  design="Bold" class= "textclass"/>-->
+     <Image width="8rem" height="3em" alt="login" src="../img/login_button.png" tap="onLogon" tooltip="Login"></Image>
+    </items>
+   </VBox>
+   
+						<!--</l:content>-->
+					<!--</l:Grid>-->
+				</content>
+	
+			</Page>
+		</pages>
+	
+
+	</App>
+</mvc:View>

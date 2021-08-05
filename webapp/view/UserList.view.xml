@@ -1,0 +1,42 @@
+<mvc:View
+    controllerName="loc.modloc.controller.UserList"
+    xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                    <content>
+
+	<List
+		items="{JUSERDATA>/data/}"
+		headerText="Lists of all Users in system">
+		<ObjectListItem
+			title="{JUSERDATA>USERNAME}"
+			type="Active"
+			press="onListItemPress"
+	    >
+			<firstStatus>
+				<ObjectStatus
+					text="{JUSERDATA>NAME}"
+				 />
+			</firstStatus>
+			<ObjectAttribute text="{JUSERDATA>EMAIL}" />
+		
+		</ObjectListItem>
+	</List>
+	
+
+
+
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

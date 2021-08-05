@@ -1,0 +1,70 @@
+<mvc:View
+    controllerName="loc.modloc.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+
+
+				<l:VerticalLayout>
+						<l:content>
+					<Panel>
+						
+
+
+
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Request Access to Thoughtspot"
+		subheader="Try or Use Thoughtspot" press="press" frameType= "TwoByHalf">
+		<TileContent />
+	</GenericTile>
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Thoughtspot Objects"
+		subheader="Metrics" press="press" frameType= "TwoByHalf">
+		<TileContent unit="Unit" footer="Current Instance">
+			<ImageContent src="sap-icon://home-share" press="_TS_OVERVIEW"/>
+		</TileContent>
+	
+
+	</GenericTile>
+
+
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Update personal informations"
+		subheader="Thoughtspot details" press="press" appShortcut = "shortcut" systemInfo = "systeminfo">
+		<TileContent>
+			<ImageContent src="test-resources/sap/m/demokit/sample/GenericTileAsLaunchTile/images/ProfileImage_LargeGenTile.png" />
+		</TileContent>
+	</GenericTile>
+
+
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Create Account"
+		subheader="Account creation for Thoughtspot" press="press" frameType="TwoByHalf">
+		<TileContent>
+			<ImageContent src="test-resources/sap/m/demokit/sample/GenericTileAsLaunchTile/images/ProfileImage_LargeGenTile.png" />
+		</TileContent>
+	</GenericTile>
+
+
+
+
+
+						
+					</Panel>
+						</l:content>
+				</l:VerticalLayout>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

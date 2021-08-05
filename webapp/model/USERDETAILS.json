@@ -1,0 +1,44 @@
+{ "data":[
+    {
+    "NAME":"Ashlin Gabriel Rajan",
+    "USERNAME": "AX000121",
+    "EMAIL" : "T.G.ashlin@xyz.com",
+    "PRINCIPAL_TYPE" : "LOCAL USER",
+    "GROUPS" : ["Administrator","PU_DE_XXXX_01"]
+    },
+    {
+    "NAME":"Thomas Kimberley",
+    "USERNAME": "AX000122",
+    "EMAIL" : "T.G.Kimberley@xyz.com",
+    "PRINCIPAL_TYPE" : "LOCAL USER",
+    "GROUPS" : ["PU_DE_XXXX_01","XXXX_01"]
+ 
+    },
+    {
+    "NAME":"James Philip",
+    "USERNAME": "AX000129",
+    "EMAIL" : "James.philip@xyz.com",
+    "PRINCIPAL_TYPE" : "LOCAL USER",
+    "GROUPS" : ["BU_DE_XXXX_01","XXXX_01"]
+
+    },
+    {
+    "NAME":"Frenchie Jens",
+    "USERNAME": "AX000123",
+    "EMAIL" : "Frenchie.Jens@xyz.com",
+    "PRINCIPAL_TYPE" : "LOCAL USER",
+    "GROUPS" : ["BU_DE_XXXX_01","XXXX_01"]
+
+    },
+    {
+    "NAME":"Frenchie Jens",
+    "USERNAME": "AX000123",
+    "EMAIL" : "Frenchie.Jens@xyz.com",
+    "PRINCIPAL_TYPE" : "LOCAL USER",
+    "GROUPS" : ["BU_FR_XXXX_01","XXXX_01"]
+
+    }
+    
+    ]
+    
+}

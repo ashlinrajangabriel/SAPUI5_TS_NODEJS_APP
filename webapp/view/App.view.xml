@@ -1,0 +1,13 @@
+<mvc:View
+   controllerName="loc.modloc.controller.App"
+   xmlns="sap.m"
+   	xmlns:core="sap.ui.core"
+   xmlns:mvc="sap.ui.core.mvc">
+        
+    
+
+   <App id="app">
+   <core:Fragment   fragmentName="loc.modloc.view.HeaderMenu" type="XML" />
+   
+   </App>
+</mvc:View>

@@ -1,0 +1,18 @@
+{
+	"@odata.context": "$metadata#UserDetails",
+	"value": [{
+		"UID": "Z00403FF",
+		"FName": "Ashlin Gabriel",
+		"LName": "Rajan",
+		"Pwd": "P@ssw0rd@1234",
+		"ValidTo": "2019-11-11",
+		"ValidFrom": "2021-11-11"
+	}, {
+		"UID": "Jana",
+		"FName": "Janina",
+		"LName": "Monterio",
+		"Pwd": "asdfgh",
+		"ValidTo": "2019-11-21",
+		"ValidFrom": "2017-11-21"
+	}]
+}

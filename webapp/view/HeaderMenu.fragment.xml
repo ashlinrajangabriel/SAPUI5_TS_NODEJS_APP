@@ -1,0 +1,32 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core" 
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:tnt="sap.tnt">
+	<tnt:ToolHeader>
+		<Button icon="sap-icon://home" type="Transparent" press=".onHomePress">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+		</Button>
+
+
+		<MenuButton icon="sap-icon://hint" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+			<Menu>
+				<MenuItem text="AUTHENTICATE" icon="sap-icon://help" press= "_Authenticate" 	/>
+				
+<!-- 				<MenuItem text="TQL" icon="sap-icon://information" />
+				<MenuItem text="USER ADMINISTRATION" icon="sap-icon://information" />
+				<MenuItem text="GROUP ADMINISTRATION" icon="sap-icon://information" />
+				<MenuItem text="DATA LOAD" icon="sap-icon://information" />
+				<MenuItem text="USE PREVIEW" icon="sap-icon://information" />  -->
+			</Menu>
+		</MenuButton>
+	</tnt:ToolHeader>
+	<Panel>
+		<Label id="labelId" text="Hello Administrator! Please handle it with caution" />
+	</Panel>
+</core:FragmentDefinition>
